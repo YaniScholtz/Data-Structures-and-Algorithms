@@ -26,13 +26,13 @@ This project implements a generic **Skip List** in Java, supporting operations o
 - Linked structures with multiple forward pointers
 - Visual debugging through level-by-level display
 
-#   Self-Ordering Lists & Traversal Strategies (Prac2)
+##   Self-Ordering Lists & Traversal Strategies (Prac2)
 
 This project explores **self-ordering linked lists** using different access strategies, alongside **recursive and iterative traversal** techniques. It forms part of a university-level Data Structures and Algorithms course.
 
 ---
 
-##  Concepts Covered
+###  Concepts Covered
 
 - Self-ordering list strategies:
   - Move-To-Front
@@ -46,7 +46,7 @@ This project explores **self-ordering linked lists** using different access stra
 
 ---
 
-##  Files Overview
+###  Files Overview
 
 - `SelfOrderingList.java` – Abstract class for a self-adjusting linked list
 - `MoveToFrontList.java` – Reorders by moving accessed element to front
@@ -60,13 +60,13 @@ This project explores **self-ordering linked lists** using different access stra
 
 ---
 
-#  Binary Tree Framework (Prac3)
+##  Binary Tree Framework (Prac3)
 
 This project implements a flexible binary tree framework in Java, featuring both **standard** and **mirrored** binary trees. It supports insertion, depth-first traversal, height calculation, parent/child searching, and checking for perfect balance.
 
 ---
 
-##  Concepts Demonstrated
+###  Concepts Demonstrated
 
 - Abstract class implementation (`BinaryTree`)
 - Inheritance with `StandardBinaryTree` and `MirroredBinaryTree`
@@ -77,7 +77,7 @@ This project implements a flexible binary tree framework in Java, featuring both
 
 ---
 
-##  Files Overview
+###  Files Overview
 
 - `BinaryTree.java` – Abstract base with shared structure and method signatures
 - `StandardBinaryTree.java` – Inserts left if smaller, right if larger
